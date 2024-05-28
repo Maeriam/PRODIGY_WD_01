@@ -1,25 +1,117 @@
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(45, 192, 214, 0.508);
-    padding: 20px 0;
-    transition: background-color 0.3s ease;
-
+body {
+    font-family: "Playfair Display", serif;
+    background-image: url('images/rock-4234793.jpg');
+    margin: 0;
+    padding: 0;
+    color: #343a40;
+  }
+  
+  .navbar {
+    padding: 15px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 26px;
+    font-weight: bold;
+    color: plum !important;
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important;
+  }
+  
+  .section-intro {
+    text-align: center;
+    padding: 100px 0;
+    background: url('images/rock-4234793_1280.jpg') no-repeat center center/cover;
+    color: white;
+  }
+  
+  .section-intro h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+  }
+  
+  .section-intro p {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  
+  .section-intro .btn-primary {
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+  
+.about-section,
+.services-section,
+.contact-section {
+  padding: 60px 20px;
+  background-color: rgb(200, 161, 200);
 }
 
-.nav-item {
-    margin: 0 20px;
-    text-decoration: none;
-    color: black;
+.about-section h2,
+.services-section h2,
+.contact-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #495057;
+  text-align: center;
 }
 
-.nav-item:hover {
-    color: blue;
+.about-section p,
+.services-section ul,
+.contact-section form {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #6c757d;
+  text-align: center;
 }
 
-.scrolled {
-    background-color: #333;
-    padding: 10px 0;
+.services-section ul {
+  list-style: none;
+  padding: 0;
 }
+
+.services-section ul li {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.carousel-item img {
+  max-height: 400px; 
+  width: auto; 
+  margin: 0 auto; 
+  display: block; 
+}
+
+.carousel-caption p {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.contact-section .form-group {
+  text-align: left;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+  
+ 
